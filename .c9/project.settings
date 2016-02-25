@@ -1,9 +1,9 @@
 {
     "ace": {
-        "@guessTabSize": "true",
+        "@guessTabSize": true,
         "@newLineMode": "unix",
         "@tabSize": "4",
-        "@useSoftTabs": "true"
+        "@useSoftTabs": true
     },
     "build": {
         "@builder": "auto",
@@ -43,12 +43,22 @@
     "run": {
         "@path": "/.c9/runners",
         "configs": {
-            "@inited": "true",
+            "@inited": true,
             "json()": {
+                "actualizar": {
+                    "command": "./actualizar",
+                    "name": "actualizar",
+                    "runner": "Shell command"
+                },
                 "notebook": {
                     "command": "./start_notebook",
                     "default": true,
                     "name": "notebook",
+                    "runner": "Shell command"
+                },
+                "setup": {
+                    "command": "./setup_notebook",
+                    "name": "setup",
                     "runner": "Shell command"
                 }
             }
