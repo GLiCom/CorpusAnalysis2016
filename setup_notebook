@@ -2,3 +2,4 @@ virtualenv -p python3 .
 . bin/activate
 pip install notebook
 pip install nltk
+pip install ipywidgets
