@@ -3,3 +3,4 @@ virtualenv -p python3 .
 pip install notebook
 pip install nltk
 pip install ipywidgets
+pip install matplotlib

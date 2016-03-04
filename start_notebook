@@ -4,4 +4,4 @@ echo
 echo 'ABRIR EL SIGUIENTE ENLACE: http://'$C9_HOSTNAME 
 echo
 echo
-jupyter notebook  --notebook-dir=notebooks --ip=0.0.0.0 --port=8080 --NotebookApp.allow_origin='*' --NotebookApp.open_browser=False
+jupyter notebook  --notebook-dir=notebooks --ip=0.0.0.0 --port=8080 --NotebookApp.allow_origin='*' --NotebookApp.open_browser=False --NotebookApp.mathjax_url="https://cdn.mathjax.org/mathjax/latest/MathJax.js"
